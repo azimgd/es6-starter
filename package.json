@@ -1,0 +1,22 @@
+{
+  "name": "telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib"
+  },
+  "keywords": [],
+  "author": "Azim Gadzhiagayev <me@azimgd.com> (http://azimgd.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.7.5",
+    "babel-core": "^6.7.7",
+    "babel-preset-es2015": "^6.6.0",
+    "eslint": "^2.8.0",
+    "eslint-config-airbnb-base": "^1.0.2",
+    "eslint-plugin-import": "^1.5.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  }
+}
