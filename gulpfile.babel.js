@@ -11,4 +11,4 @@ gulp.task('watch', () => {
   gulp.watch('./src/*.js', ['babel']);
 });
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['babel', 'watch']);
